@@ -1,5 +1,5 @@
 WITH source as (
-  SELECT * FROM "FIVETRAN_DATABASE"."POSTGRES_NORTHWINDS_RDS_PUBLIC"."CUSTOMERS"
+  SELECT * FROM CUSTOMERS
 ), 
 renamed as (
     SELECT customer_id, country, 
